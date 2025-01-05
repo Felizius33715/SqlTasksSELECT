@@ -17,4 +17,4 @@ WHERE name NOT LIKE '% %';
 
 SELECT name 
 FROM song 
-WHERE name ILIKE '%мой%' OR name ILIKE '%my%';
+WHERE name ILIKE '% мой %' OR name ILIKE '% my %';
